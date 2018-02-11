@@ -24,12 +24,16 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://ketcomp.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ketcomp
 github_username:  ketcomp
+privacy: "/privacy-policy"
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+# Facebook comments
+facebookComment: <div class="fb-comments" data-href="https://www.ketcomp.github.io" data-numposts="10"></div>
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
